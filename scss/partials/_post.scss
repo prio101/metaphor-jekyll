@@ -1,0 +1,42 @@
+//Start of the section the title
+.single-post-title-main{
+  margin-left: 10%;
+
+  h2{
+    font-family: "Monostate", sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+  }
+  small{
+    font-kerning: normal;
+    letter-spacing: .2em;
+    font-weight: 700;
+  }
+}
+
+//POst para style
+.post{
+  margin: 5% 10%;
+  font-family: "Monostate", sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+
+
+  blockquote {
+      font-family: "Arial", sans-serif;
+      font-size: 1.9em;
+      font-style: italic;
+      font-weight: 600;
+      color: #262626;
+      margin-left: 0% !important;
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+
+}
+
+.single-author{
+  margin-left: 10%;
+}
+
+

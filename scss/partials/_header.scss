@@ -1,0 +1,67 @@
+/*This is the header section styles*/
+
+
+.header{
+  background:$background-path 50% 0 no-repeat fixed;
+
+  width: 100%;
+  min-height: 400px;
+
+  margin: 0 auto;
+  padding: 0;
+
+
+//  Header title and caption
+   h2 {
+      text-align: center;
+      font-family: $header-font-family;
+      font-size: 3em;
+      font-weight: 900;
+      color: $header-font-color;
+      letter-spacing: 0.2em;
+
+      margin-top: 10%;
+      a{
+        margin-left: 0%;
+        color:$header-font-color;
+      }
+    }
+
+//    Header caption styles
+  p{
+    text-align: center;
+    font-family:$header-font-family;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: $header-font-color;
+    letter-spacing: .1em;
+
+    margin-top:2% ;
+  }
+
+  a{
+    text-decoration: none !important;
+    margin-left: 80%;
+    color: #fff;
+    
+    @media screen and (max-width: 360px) {
+      margin-left: 60%;
+    }
+  }
+
+  .tab{
+    font-weight: 900;
+    font-size: 1.4em;
+  }
+
+  .social-pack{
+    text-align: center;
+    a{
+      text-decoration: none;
+      &:hover{
+        color: #00b3ee;
+      }
+    }
+  }
+
+}

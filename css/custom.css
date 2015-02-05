@@ -1,0 +1,194 @@
+/*This is the header section styles*/
+.header {
+  background: url("../img/bg.jpeg") 50% 0 no-repeat fixed;
+  width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+  padding: 0; }
+  .header h2 {
+    text-align: center;
+    font-family: "Monostate", sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: 0.2em;
+    margin-top: 10%; }
+    .header h2 a {
+      margin-left: 0%;
+      color: #fff; }
+  .header p {
+    text-align: center;
+    font-family: "Monostate", sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: .1em;
+    margin-top: 2%; }
+  .header a {
+    text-decoration: none !important;
+    margin-left: 80%;
+    color: #fff; }
+    @media screen and (max-width: 360px) {
+      .header a {
+        margin-left: 60%; } }
+  .header .tab {
+    font-weight: 900;
+    font-size: 1.4em; }
+  .header .social-pack {
+    text-align: center; }
+    .header .social-pack a {
+      text-decoration: none; }
+      .header .social-pack a:hover {
+        color: #00b3ee; }
+
+.post-loop {
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10%; }
+  @media screen and (max-width: 360px) {
+    .post-loop {
+      margin: 0% 5%; } }
+  .post-loop .post-title {
+    font-size: 1.6em;
+    font-weight: 900;
+    color: #777;
+    letter-spacing: 0.07em; }
+  .post-loop .post-excerpt {
+    font-size: 0.9em;
+    margin-top: 2%;
+    line-height: 1.5em; }
+  .post-loop .single-post + .single-post {
+    margin-top: 10%; }
+
+.post-details {
+  font-family: "Monostate", sans-serif;
+  font-weight: 700; }
+  .post-details em {
+    color: #444444;
+    font-size: .9em;
+    display: inline;
+    float: left;
+    padding-right: 1%; }
+  .post-details ul {
+    font-size: 0.9em; }
+    .post-details ul li {
+      list-style: none;
+      display: inline; }
+      .post-details ul li a {
+        background-color: #07736B;
+        color: #fff;
+        padding: 2px;
+        border-radius: 5px;
+        text-decoration: none; }
+
+.pagignation {
+  margin-left: 22%;
+  margin-bottom: 5%;
+  display: block; }
+  .pagignation ul {
+    list-style: none; }
+    .pagignation ul .page-numbers a {
+      text-decoration: none;
+      float: left;
+      margin-left: 3px; }
+
+.icon-pack {
+  color: #3c3c3c;
+  padding-left: 1%;
+  text-align: center; }
+  @media screen and (max-width: 360px) {
+    .icon-pack {
+      margin-left: 12%; } }
+
+/*This is the styles of single page post header*/
+.single-post-title {
+  text-align: center;
+  font-weight: 900;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  display: inline;
+  margin-left: 42%;
+  margin-top: 5%; }
+  @media screen and (max-width: 360px) {
+    .single-post-title {
+      margin-left: 30%;
+      display: inline-block; } }
+
+.single-about-link {
+  text-decoration: none;
+  color: #0f0f0f;
+  margin-left: 25%; }
+  @media screen and (max-width: 360px) {
+    .single-about-link {
+      margin-left: 78%; } }
+
+.single-post-image-holder {
+  max-width: 100%;
+  height: 50%; }
+  .single-post-image-holder .single-post-img {
+    padding: 5% 10%;
+    z-index: -1;
+    overflow: hidden;
+    max-width: inherit;
+    height: inherit; }
+
+.single-post-title-main {
+  margin-left: 10%; }
+  .single-post-title-main h2 {
+    font-family: "Monostate", sans-serif;
+    font-size: 5em;
+    font-weight: 900; }
+  .single-post-title-main small {
+    font-kerning: normal;
+    letter-spacing: .2em;
+    font-weight: 700; }
+
+.post {
+  margin: 5% 10%;
+  font-family: "Monostate", sans-serif;
+  font-weight: 100;
+  font-size: 1.3em; }
+  .post blockquote {
+    font-family: "Arial", sans-serif;
+    font-size: 1.9em;
+    font-style: italic;
+    font-weight: 600;
+    color: #262626;
+    margin-left: 0% !important;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+
+.single-author {
+  margin-left: 10%; }
+
+.about-header {
+  margin-left: 38%;
+  margin-top: 6%; }
+  .about-header img {
+    margin: 5% 8%; }
+  .about-header h2 {
+    font-family: "Monostate", sans-serif;
+    font-weight: 900;
+    font-size: 2.5em; }
+  @media screen and (max-width: 360px) {
+    .about-header {
+      margin-left: 27%; }
+      .about-header img {
+        margin: 5% 5%; }
+      .about-header h2 {
+        margin-left: 0%;
+        font-size: 1.5em; } }
+
+.about-bio {
+  margin: 5% 10%;
+  font-size: 1.3em;
+  font-family: "Monostate", sans-serif;
+  font-weight: 200; }
+
+a {
+  text-decoration: none !important; }
+  a:hover {
+    color: #000 !important; }
+
+/*# sourceMappingURL=custom.css.map */

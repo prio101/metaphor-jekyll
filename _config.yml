@@ -1,0 +1,14 @@
+# Site settings
+title: Metaphor
+smalltalk: "A simple Blog"
+description: > # My blog Powred by jekyll
+baseurl: "" # the subpath of your site, e.g. /blog/
+paginate: 5
+url: "" # the base hostname & protocol for your site
+twitter_username: 
+github_username:  
+facebook_username: 
+portfolio_url: 
+
+# Build settings
+markdown: kramdown
